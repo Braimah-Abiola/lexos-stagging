@@ -1,6 +1,5 @@
 import CareerCard from "@/components/common/career-card";
 import Wrapper from "@/components/common/wrapper";
-import { Separator } from "@/components/ui/separator";
 
 const OpenPositions = () => {
     return (
@@ -27,7 +26,7 @@ const OpenPositions = () => {
                         <CareerCard category="Design" title="Product Designer" description="We’re looking for a mid-level product designer to join our team." location="Boston, MA" type="Full Time" compensation="$80k - 100k" />
                     </div>
                 </div>
-                
+
                 <div className=" w-full flex items-start justify-between max-w-6xl mx-auto mt-12">
                     <div>
                         <h6 className=" text-xl font-semibold ">Other</h6>
