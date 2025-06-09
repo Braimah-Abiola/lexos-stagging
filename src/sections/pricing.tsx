@@ -6,7 +6,7 @@ const Pricing = () => {
     return (
         <section className=" py-40 bg-white">
             <Wrapper className=" flex flex-col items-center">
-                <span className=" bg-primary/10 text-primary rounded-full p-2 inline-flex items-center gap-2">
+                <span className=" bg-primary/10 text-primary rounded-full py-2 pl-2 pr-4 inline-flex items-center gap-2">
                     <Gem />
                     <p>Pricing</p>
                 </span>

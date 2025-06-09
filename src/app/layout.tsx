@@ -1,9 +1,8 @@
-import type { Metadata } from "next";
-import { Manrope, IBM_Plex_Sans } from "next/font/google";
-import "../globals.css";
-import Navigation from "@/sections/navigation";
 import Footer from "@/sections/footer";
-import Cta from "@/sections/cta";
+import Navigation from "@/sections/navigation";
+import type { Metadata } from "next";
+import { IBM_Plex_Sans, Manrope } from "next/font/google";
+import "./globals.css";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -35,7 +34,6 @@ export default function RootLayout({
         <div className=" min-h-screen">
           {children}
         </div>
-        <Cta />
         <Footer />
       </body>
     </html>

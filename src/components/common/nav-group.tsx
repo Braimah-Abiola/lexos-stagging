@@ -140,7 +140,7 @@ export function NavGroup() {
                                     <ListItem href="/use-cases/moving-companies" title="Customer Stories" icon="/assets/resource-1.svg" iconActive="/assets/resource-1-active.svg">
                                         See how moving companies streamlined workflows with us.
                                     </ListItem>
-                                    <ListItem href="/use-cases/" title="Product Demo" icon="/assets/resource-2.svg" iconActive="/assets/resource-active.svg">
+                                    <ListItem href="/use-cases/" title="Product Demo" icon="/assets/resource-2.svg" iconActive="/assets/resource-2-active.svg">
                                         See how our core platform works in a quick demo.
                                     </ListItem>
                                     <ListItem href="/use-cases/" title="FAQs" icon="/assets/resource-3.svg" iconActive="/assets/resource-3-active.svg">

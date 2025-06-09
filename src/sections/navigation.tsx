@@ -48,7 +48,7 @@ const Navigation = () => {
                 </nav>
                 <aside className="flex items-center gap-4">
                     <div className="shrink-0 flex-nowrap inline-flex items-center gap-2">
-                        <Image height={20} width={20} src="/assets/us-flag.svg" className=" object-cover" alt="Us flag" quality={100} />
+                        <Image height={24} width={24} src="/assets/us-flag.svg" className=" object-cover" alt="Us flag" quality={100} />
                         <ChevronDown className=" size-4 text-foreground" />
                     </div>
                     <span className=" h-5">
