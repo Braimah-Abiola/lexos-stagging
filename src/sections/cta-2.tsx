@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Cta2 = () => {
     return (
-        <section className=" h-[72vh] overflow-clip mb-40">
+        <section className=" h-[72vh] overflow-clip mb-28">
             <Wrapper className="w-full h-full">
                 <div className=" h-full w-full relative flex z-10">
                     <div className=" w-[60%]">
