@@ -6,7 +6,7 @@ const PricingComparison = () => {
   return (
     <div className=" bg-accent py-20 -mt-24 mb-20">
       <Wrapper>
-        <h1 className="mt-2 font-manrope text-5xl font-bold text-center">Compare Our Plans</h1>
+        <h2 className="mt-2 font-manrope text-5xl font-bold text-center">Compare Our Plans</h2>
 
         <div className=" grid grid-cols-4 max-w-5xl mx-auto w-full gap-0 mt-20">
           <div className=" flex flex-col gap-12 py-8 w-full">
