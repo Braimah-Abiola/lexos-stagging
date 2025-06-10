@@ -33,7 +33,7 @@ const Navigation = () => {
 
     return (
         <header
-            className={`w-full bg-white py-3 z-50 sticky top-0 transition-shadow duration-200 ease-in-out ${
+            className={`w-full bg-white py-3 z-[9999] sticky top-0 transition-shadow duration-200 ease-in-out ${
                 isScrolled ? "border-b border-b-black/10" : "border-b border-b-transparent"
             }`}
         >

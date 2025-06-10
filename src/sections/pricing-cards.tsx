@@ -107,7 +107,7 @@ interface PriceCardProps {
 const PriceCards = ({ selected }: PriceCardProps) => (
   <div className="flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 gap-4 lg:gap-4 max-w-5xl mx-auto w-full relative z-10 mt-8 md:mt-0">
     {/* GROWTH */}
-    <div className="w-full bg-white p-5 border border-black/10 rounded-2xl">
+    <div className="w-full bg-white px-5 pt-5 pb-10 border border-black/10 rounded-2xl">
       <p className="text-xl font-semibold font-manrope">Growth</p>
       <p className="text-base text-foreground opacity-70 mb-4">
         For teams expanding reach and increasing efficiency.
@@ -179,7 +179,7 @@ const PriceCards = ({ selected }: PriceCardProps) => (
     </div>
 
     {/* Pro  */}
-    <div className="w-full overflow-hidden bg-primary p-5 text-white rounded-2xl">
+    <div className="w-full overflow-hidden bg-primary px-5 pt-5 pb-10 text-white rounded-2xl">
       <div className=" w-full flex items-center justify-between">
         <p className="text-xl font-semibold font-manrope text-white">Advanced</p>
 
@@ -224,7 +224,7 @@ const PriceCards = ({ selected }: PriceCardProps) => (
           )}
         </AnimatePresence>
       </div>
-      <Link href="https://app.skillura.com/get-started">
+      <Link href="https://stripe.com">
         <motion.button
           whileHover={{ scale: 1.015 }}
           whileTap={{ scale: 0.985 }}
@@ -261,7 +261,7 @@ const PriceCards = ({ selected }: PriceCardProps) => (
     </div>
 
     {/* Enterprise */}
-    <div className="w-full bg-white p-5 border border-black/10 rounded-2xl">
+    <div className="w-full bg-white px-5 pt-5 pb-10 border border-black/10 rounded-2xl">
       <p className="text-xl font-semibold font-manrope">Enterprise</p>
       <p className="text-base text-foreground font-normal opacity-70 mb-4">
         For organizations needing custom solutions and priority support.
@@ -294,7 +294,7 @@ const PriceCards = ({ selected }: PriceCardProps) => (
           )}
         </AnimatePresence>
       </div>
-      <Link href="https://calendly.com/skillura-enterprise">
+      <Link href="https://calendly.com/dino-lexosmove/30min?back=1&month=2025-06">
         <motion.button
           whileHover={{ scale: 1.015 }}
           whileTap={{ scale: 0.985 }}
