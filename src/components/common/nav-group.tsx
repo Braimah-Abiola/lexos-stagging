@@ -86,10 +86,10 @@ export function NavGroup() {
                                     <ListItem href="/use-cases/moving-companies" title="Moving Companies" icon="/assets/use-case-1.svg" iconActive="/assets/use-case-1-active.svg">
                                         Replace manual inventory with AI photos to inventory with weight, volume, and CRM sync.
                                     </ListItem>
-                                    <ListItem href="/use-cases/" title="Instant CRM Sync" icon="/assets/use-case-2.svg" iconActive="/assets/use-case-2-active.svg">
+                                    <ListItem href="/use-cases/junk-removers" title="Junk Removers" icon="/assets/use-case-2.svg" iconActive="/assets/use-case-2-active.svg">
                                         AI transforms photos into detailed inventories with weight and volume for streamlined operations.
                                     </ListItem>
-                                    <ListItem href="/use-cases/" title="Accurate Weight & Volume" icon="/assets/use-case-3.svg" iconActive="/assets/use-case-3-active.svg">
+                                    <ListItem href="/use-cases/import-management" title="Import Management" icon="/assets/use-case-3.svg" iconActive="/assets/use-case-3-active.svg">
                                         Get accurate weight and volume for imports from photos using AI, syncing to your CRM.
                                     </ListItem>
                                 </div>
@@ -106,7 +106,7 @@ export function NavGroup() {
                                     <p className=" text-sm">
                                         Olympia, a leading moving company, leveraged our AI to transform photos into detailed inventories, reducing manual effort and improving data accuracy.
                                     </p>
-                                    <Link href="/changelog">
+                                    <Link href="/customer-stories/olympia">
                                         <Button className=" text-primary px-0 md:px-0 has-[>svg]:pl-0 has-[>svg]:pr-0" variant="ghost">Read Customer Story<ArrowRight /></Button>
                                     </Link>
                                 </div>
@@ -195,7 +195,7 @@ function ListItem({
                         className={`h-12 w-12 aspect-square inline-flex items-center justify-center rounded-lg ${isHovered ? "bg-primary border border-primary" : "bg-white border border-black/20"
                             }`}
                     >
-                        <Image width={26} height={26} src={isHovered ? iconActive : icon} alt={title || "Icon"} />
+                        <Image priority width={26} height={26} src={isHovered ? iconActive : icon} alt={title || "Icon"} />
                     </div>
                     <div className=" ml-4">
                         <div className="text-[15px] leading-none font-medium">{title}</div>

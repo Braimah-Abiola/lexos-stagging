@@ -170,7 +170,7 @@ const PriceCards = ({ selected }: PriceCardProps) => (
       </div>
       <div className="flex items-center gap-2 mb-2">
         <Check className=" text-primary" />
-        <span className="text-base">Unlimited guide survey usage</span>
+        <span className="text-base">Unlimited guided survey usage</span>
       </div>
       <div className="flex items-center gap-2 mb-2">
         <Check className=" text-primary" />
