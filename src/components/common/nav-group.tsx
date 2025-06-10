@@ -137,13 +137,13 @@ export function NavGroup() {
                             <div className="flex flex-col gap-2">
                                 <span className=" font-medium text-sm uppercase opacity-50 pt-2">Resources</span>
                                 <div>
-                                    <ListItem href="/use-cases/moving-companies" title="Customer Stories" icon="/assets/resource-1.svg" iconActive="/assets/resource-1-active.svg">
+                                    <ListItem href="/customer-stories" title="Customer Stories" icon="/assets/resource-1.svg" iconActive="/assets/resource-1-active.svg">
                                         See how moving companies streamlined workflows with us.
                                     </ListItem>
-                                    <ListItem href="/use-cases/" title="Product Demo" icon="/assets/resource-2.svg" iconActive="/assets/resource-2-active.svg">
+                                    <ListItem href="/demo" title="Product Demo" icon="/assets/resource-2.svg" iconActive="/assets/resource-2-active.svg">
                                         See how our core platform works in a quick demo.
                                     </ListItem>
-                                    <ListItem href="/use-cases/" title="FAQs" icon="/assets/resource-3.svg" iconActive="/assets/resource-3-active.svg">
+                                    <ListItem href="/faqs" title="FAQs" icon="/assets/resource-3.svg" iconActive="/assets/resource-3-active.svg">
                                         Find quick answers to the most common questions.
                                     </ListItem>
                                 </div>

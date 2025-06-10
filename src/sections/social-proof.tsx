@@ -12,7 +12,7 @@ const SocialProof = () => {
             <div className=" max-w-7xl mx-auto relative w-full flex flex-col -space-y-3 mt-8">
                 <div className="pointer-events-none absolute z-20 inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
 
-                <Marquee pauseOnHover className="[--duration:20s]">
+                <Marquee pauseOnHover className="[--duration:30s]">
                     <div className="relative h-[60px] w-[220px]">
                         <Image fill src="/assets/1.png" className=" object-contain scale-90" quality={100} alt="Olympia" />
                     </div>
@@ -45,7 +45,7 @@ const SocialProof = () => {
                     </div>
                 </Marquee>
 
-                <Marquee reverse pauseOnHover className="[--duration:28s]">
+                <Marquee reverse pauseOnHover className="[--duration:34s]">
                     <div className="relative h-[60px] w-[164px]">
                         <Image fill src="/assets/11.png" className=" object-contain scale-90" quality={100} alt="All Service Moving" />
                     </div>

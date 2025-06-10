@@ -1,4 +1,4 @@
-"use client"; // Add this line
+"use client";
 
 import { NavGroup } from "@/components/common/nav-group";
 import Wrapper from "@/components/common/wrapper";
@@ -7,7 +7,8 @@ import { Separator } from "@/components/ui/separator";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState, useEffect } from "react"; // Import useState and useEffect
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Navigation = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -22,20 +23,32 @@ const Navigation = () => {
             }
         };
 
-        // Add event listener
         window.addEventListener("scroll", handleScroll);
 
-        // Remove event listener on cleanup
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
+    const navVariants = {
+        hidden: { y: -100, opacity: 0 },
+        visible: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                duration: 0.5,
+                ease: "easeOut",
+            },
+        },
+    };
+
     return (
-        <header
-            className={`w-full bg-white py-3 z-[9999] sticky top-0 transition-shadow duration-200 ease-in-out ${
-                isScrolled ? "border-b border-b-black/10" : "border-b border-b-transparent"
-            }`}
+        <motion.header
+            initial="hidden"
+            animate="visible"
+            variants={navVariants}
+            className={`w-full bg-white py-3 z-[9999] sticky top-0 transition-shadow duration-200 ease-in-out ${isScrolled ? "border-b border-b-black/10" : "border-b border-b-transparent"
+                }`}
         >
             <Wrapper className="flex items-center justify-between">
                 <Link className=" h-10 w-[112px]" href="/">
@@ -60,7 +73,7 @@ const Navigation = () => {
                     </div>
                 </aside>
             </Wrapper>
-        </header>
+        </motion.header>
     );
 }
 

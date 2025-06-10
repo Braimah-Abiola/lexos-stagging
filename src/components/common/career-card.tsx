@@ -18,7 +18,7 @@ const CareerCard = (
         compensation: string;
     }) => {
     return (
-        <div className=" w-full bg-white max-w-xl border border-black/10 rounded-2xl px-8 py-8">
+        <div className=" w-full bg-white max-w-2xl border border-black/10 rounded-2xl px-8 py-8">
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
                     <h4 className=" font-semibold text-lg">{title}</h4>

@@ -1,6 +1,6 @@
 import Wrapper from "@/components/common/wrapper";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Stars } from "lucide-react";
+import { ArrowRight, QrCode } from "lucide-react";
 import Image from "next/image";
 
 const ChangelogHero = () => {
@@ -10,10 +10,10 @@ const ChangelogHero = () => {
                 <div className=" h-full w-full relative flex flex-col items-center pt-20">
                     <span className=" bg-white text-primary rounded-full pl-1 py-1 pr-3 inline-flex items-center gap-2">
                         <div className=" bg-primary text-white rounded-full py-1 pl-2 pr-3 inline-flex items-center gap-1">
-                            <Stars className=" size-5" />
-                            <p className=" text-sm">v1.0.2</p>
+                            <QrCode className=" size-5" />
+                            <p className=" text-sm">v 1.0.2</p>
                         </div>
-                        <p className=" text-foreground text-sm opacity-70">With improved AI Capabilities</p>
+                        <p className=" text-foreground text-sm opacity-70">With QR Code Implementation</p>
                         <ArrowRight className=" text-foreground opacity-70 size-4" />
                     </span>
                     <h1 className=" mt-2 font-manrope text-5xl leading-[60px] font-bold text-center">

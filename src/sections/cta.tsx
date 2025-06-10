@@ -7,7 +7,7 @@ const Cta = () => {
         <section className=" w-full bg-gradient-to-b from-white to-[#E8E2FF]">
             <Wrapper>
                 <div className=" w-full flex flex-col items-center z-10 relative">
-                    <Image width={48} height={48} src="/assets/logo-icon.svg" quality={100} alt="Lexos icon" />
+                    <Image width={60} height={60} src="/assets/logo-icon.svg" quality={100} alt="Lexos icon" />
                     <h1 className=" mt-2 font-manrope text-5xl leading-[60px] font-bold text-center">Automate Your <br />
                         <span className=" relative ml-2 pl-2 pr-2">
                             Inventory With AI
