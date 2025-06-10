@@ -25,7 +25,7 @@ const Cta = () => {
                 </div>
             </Wrapper>
             <div className=" w-full h-[38rem] relative -mt-40 z-1">
-                <Image fill quality={100} src="/assets/cta-img.png" className=" object-cover" alt="Cta" />
+                <Image fill quality={100} src="/assets/cta-img.png" className=" object-contain" alt="Cta" />
             </div>
         </section>
     );

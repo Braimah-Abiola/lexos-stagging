@@ -10,14 +10,11 @@ export function AllChangelogs() {
       title: "04 June 2025",
       content: (
         <div>
-          <h2 className=" text-3xl font-semibold font-plex-sans text-foreground tracking-tight">
-            Latest Update
+          <h2 className=" text-2xl font-semibold font-plex-sans text-foreground tracking-tight">
+            QR Code Implementation
           </h2>
           <p className="text-foreground/70 text-base md:mt-4 mb-8">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-            dicta quia beatae! Eos, fugit quia laudantium sed ullam sint, harum
-            tempore reprehenderit ex commodi dignissimos nobis! Aut laudantium
-            quidem eligendi.
+            Faster processing, enhanced accuracy, and expanded item recognition are now even more powerful with our new QR code implementation from desktop to phone.
           </p>
           <div className=" w-full h-auto aspect-video md:aspect-auto md:h-[28rem] relative">
             <Image
@@ -34,19 +31,18 @@ export function AllChangelogs() {
       title: "24 April 2025",
       content: (
         <div>
-          <h2 className=" text-3xl font-semibold font-plex-sans text-foreground tracking-tight">
+          <h2 className=" text-2xl font-semibold font-plex-sans text-foreground tracking-tight">
             Faster Processing & More Accurate Data
           </h2>
           <p className="text-foreground/70 text-base md:mt-4 mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+            We&apos;ve significantly optimized our algorithms, resulting in quicker inventory processing times and more precise data extraction from your uploads. Experience a smoother, more reliable workflow.
           </p>
           <div className=" w-full h-auto aspect-video md:aspect-auto md:h-[28rem] relative">
             <Image
-              src="/assets/qr-update.png"
+              src="/assets/update-2.png"
               alt="Changelog 2"
               fill
-              className="rounded-xl object-cover h-20 md:h-44 lg:h-60 w-full"
+              className="rounded-xl object-cover border border-black/20 h-20 md:h-44 lg:h-60 w-full"
             />
           </div>
         </div>
@@ -56,7 +52,7 @@ export function AllChangelogs() {
       title: "",
       content: (
         <div className=" h-fit">
-          <h2 className=" text-3xl font-semibold font-plex-sans text-foreground tracking-tight">
+          <h2 className=" text-2xl font-semibold font-plex-sans text-foreground tracking-tight">
             That&apos;s all for now
           </h2>
         </div>
@@ -64,7 +60,7 @@ export function AllChangelogs() {
     },
   ];
   return (
-    <Wrapper className="w-full -mt-[50rem] mb-40">
+    <Wrapper className="w-full -mt-[48rem] mb-40">
       <div className=" max-w-6xl mx-auto">
         <Timeline data={data} />
       </div>
